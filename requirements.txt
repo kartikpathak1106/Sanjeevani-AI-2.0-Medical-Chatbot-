@@ -1,0 +1,14 @@
+streamlit>=1.40
+langchain==0.3.7
+langchain-core==0.3.29
+langchain-community==0.3.7
+langchain-huggingface==0.1.2
+langchain-groq==0.2.1
+langchain-text-splitters==0.3.5
+faiss-cpu
+huggingface-hub
+pypdf
+python-dotenv
+groq
+gtts
+elevenlabs

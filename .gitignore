@@ -1,0 +1,9 @@
+.env
+env.txt
+venv/
+__pycache__/
+*.pyc
+vectorstore
+sanjeevani.db
+data/user_uploads/
+doctor_response.mp3/

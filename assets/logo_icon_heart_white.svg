@@ -1,0 +1,41 @@
+<svg viewBox="0 0 200 195" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueSwI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="greenSwI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84cc16"/>
+      <stop offset="100%" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10,10)">
+    <path d="M 90 20
+             C 55 5 15 15 8 55
+             C 2 90 35 118 62 140
+             C 78 152 90 168 95 185
+             C 100 168 108 155 118 145
+             C 95 122 70 95 78 65
+             C 84 42 105 30 128 32
+             C 112 22 100 18 90 20 Z"
+          fill="url(#blueSwI)"/>
+
+    <circle cx="52" cy="70" r="15" fill="url(#blueSwI)"/>
+
+    <path d="M 100 20
+             C 135 5 175 15 182 55
+             C 188 90 155 118 128 140
+             C 112 152 100 168 95 185
+             C 92 174 87 163 80 153
+             C 105 128 130 100 122 68
+             C 117 46 100 33 80 33
+             C 87 25 94 21 100 20 Z"
+          fill="url(#greenSwI)"/>
+
+    <g transform="translate(95,88)">
+      <rect x="-12" y="-32" width="24" height="64" rx="6" fill="#22c55e"/>
+      <rect x="-32" y="-12" width="64" height="24" rx="6" fill="#22c55e"/>
+    </g>
+  </g>
+</svg>

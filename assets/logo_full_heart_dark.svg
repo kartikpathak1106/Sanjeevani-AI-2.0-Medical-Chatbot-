@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueSwD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="greenSwD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a3e635"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="heartGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(10,10)" filter="url(#heartGlow)">
+    <path d="M 90 20
+             C 55 5 15 15 8 55
+             C 2 90 35 118 62 140
+             C 78 152 90 168 95 185
+             C 100 168 108 155 118 145
+             C 95 122 70 95 78 65
+             C 84 42 105 30 128 32
+             C 112 22 100 18 90 20 Z"
+          fill="url(#blueSwD)"/>
+
+    <circle cx="52" cy="70" r="15" fill="url(#blueSwD)"/>
+
+    <path d="M 100 20
+             C 135 5 175 15 182 55
+             C 188 90 155 118 128 140
+             C 112 152 100 168 95 185
+             C 92 174 87 163 80 153
+             C 105 128 130 100 122 68
+             C 117 46 100 33 80 33
+             C 87 25 94 21 100 20 Z"
+          fill="url(#greenSwD)"/>
+
+    <g transform="translate(95,88)">
+      <rect x="-12" y="-32" width="24" height="64" rx="6" fill="#bef264"/>
+      <rect x="-32" y="-12" width="64" height="24" rx="6" fill="#bef264"/>
+    </g>
+  </g>
+
+  <!-- Wordmark, white for dark background -->
+  <text x="230" y="110" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="50" font-weight="800" fill="#ffffff" letter-spacing="-1">
+    Sanjeevani
+  </text>
+  <text x="232" y="146" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="4" fill="#38bdf8">
+    AI
+  </text>
+  <text x="266" y="146" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="4" fill="#a3e635">
+    2.0
+  </text>
+  <text x="232" y="172" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="2" fill="#94a3b8">
+    CARING FOR YOUR HEALTH
+  </text>
+</svg>
